@@ -1,0 +1,35 @@
+{
+  "name": "rate-limiter",
+  "version": "1.0.0",
+  "description": "A simple Redis Backed Rate Limiter",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/server.js",
+    "clean": "rm -rf dist/ types/"
+  },
+  "author": "",
+  "contributors": [
+    {
+      "name": "Ram Nad",
+      "email": "ramnad1999@gmail.com",
+      "url": "https://github.com/ram-nad"
+    },
+    {
+      "name": "Ketan Lambat",
+      "email": "ketan.lambat@ynail.com",
+      "url": "https://github.com/ketan-lambat"
+    }
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/redis": "^2.8.28",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
+  }
+}
