@@ -28,3 +28,5 @@ export function RateLimit(options: RateLimitOptions): RateLimiter {
     );
   }
 }
+
+export default RateLimit;
